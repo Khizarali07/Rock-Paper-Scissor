@@ -45,7 +45,6 @@
 @media (max-width:599px) {
     #nav {
         width: 100%;
-        height: fit-content;
         background-color: black;
         color: white;
         font-size: 2.5rem;
