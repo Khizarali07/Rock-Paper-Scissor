@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">Rock Paper Scissors</div>
+
+    <div id="main">
+        <img src="rock paper scissor.jpg" alt="Game images" id="one" usemap="#map">
+        <map name="map">
+            <area shape="circle" coords="73,76,75" href="#" id="rock" onclick="game('rock')">
+            <area shape="circle" coords="253,72,73" href="#" id="paper" onclick="game('paper')">
+            <area shape="circle" coords="436,74,74" href="#" id="Scissors" onclick="game('scissor')">
+        </map>
+    </div>
+
+    <div id="score">
+    <div id="you">
+        <p id="data1">0</p>
+        <p>You</p>
+    </div>
+    <div id="comp">
+        <p id="data2">0</p>
+        <p>Comp</p>
+    </div>
+    </div>
+
+    <div id="footer">
+    <p id="message">Pick your move</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
