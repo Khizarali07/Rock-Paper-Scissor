@@ -52,11 +52,16 @@
     }
 
     #main {
-
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
+    }
+
+    .game_img {
+        width: 20vw;
+        height: 20vw;
+        margin: 1vw;
     }
 
 
@@ -81,7 +86,7 @@
     #message {
         background-color: black;
         color: white;
-        font-size: 2rem;
+        font-size: 3.5vw;
         padding: 10px;
         border-radius: 10px;
     }
