@@ -10,10 +10,9 @@
 
     #main {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin-top: 50px;
     }
-
 
     #score {
         display: flex;
@@ -47,20 +46,17 @@
         width: 100%;
         background-color: black;
         color: white;
-        font-size: 2.5rem;
-        padding: 20px;
+        font-size: 5.5vw;
+        padding: 5vw 0vw;
         text-align: center;
     }
 
     #main {
 
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         margin-top: 50px;
-    }
-
-    #one {
-        width: 90vw;
     }
 
 
